@@ -1,0 +1,57 @@
+{
+    "host": "xyz.hospital.com",
+    "url_base": "http://xyz.hospital.com",
+    "url_doctor_list": [
+        "http://xyz.hospital.com/doctors?pageIndex=0",
+        "http://xyz.hospital.com/doctors?pageIndex=1"
+    ],
+    "url_verify_code": "http://xyz.hospital.com/GetNewVerifyCode",
+    "url_reserve": "http://xyz.hospital.com/CommitReservation",
+
+    "session_cookie": "ASP.SessionId=zzzzzzzzyyyyyyyyxxxxxxxx; UPhone=18888888888; UID=xxxxxxxxyyyyyyyyzzzzzzzz",
+
+    "temp_ocr_img_dir": "_temp",
+
+    "form_data_template": {
+        "PeriodId": 0,
+        "docID": 0,
+        "MapId": 0,
+        "deptId": 0,
+        "DeptName": "口腔科",
+        "Time": "10:30-11:00",
+        "MZSJ": "2018-05-22",
+        "RegDate": "2018-05-22",
+        "yzm": 0,
+        "DoctorName": "巨石",
+        "button.x": 102,
+        "button.y": 13,
+
+        "hidName": "强森",
+        "hidCardNo": "1234567890",
+        "hidIDCard": "123321199909099999",
+        "hidCardID": 123,
+        "hidDoctorScheduleID": "",
+        "hidPBMXXH": "",
+        "LX": "",
+        "regType": "",
+        "RegFee": "",
+        "hidContactPhone": "18888888888",
+        "ddlCard": 123,
+        "button": "提交"
+    },
+
+    "failure_response_msg": {
+        "RESP_USED": "号源已被占，请重试",
+        "RESP_CODE_INVALID": "验证码错误",
+        "RESP_OVER_TIME": "预约时间已过",
+        "RESP_NEED_LOGIN": "loginRequired"
+    },
+
+    "verify_codes": [],
+
+    "restore": {
+        "docName": "道恩",
+        "date": "2018-05-29",
+        "time": "08:00-08:30"
+    }
+}

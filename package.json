@@ -1,0 +1,23 @@
+{
+  "name": "doctor-reservation",
+  "version": "1.0.0",
+  "description": "To auto reserve a doctor",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "HTTP",
+    "OCR"
+  ],
+  "author": "Robin Li",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "async-http-request": "^1.0.4",
+    "cheerio": "^1.0.0-rc.2",
+    "gm": "^1.23.1",
+    "rimraf": "^2.6.2",
+    "tesseractocr": "^1.1.0"
+  }
+}
